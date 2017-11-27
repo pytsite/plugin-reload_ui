@@ -1,0 +1,23 @@
+{
+  "name": "reload_ui",
+  "version": "1.0",
+  "description": {
+    "en": "Reload UI",
+    "ru": "Reload UI",
+    "uk": "Reload UI"
+  },
+  "url": "https://github.com/pytsite/plugin-reload_ui",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": [
+      "assetman",
+      "http_api",
+      "jquery"
+    ]
+  }
+}

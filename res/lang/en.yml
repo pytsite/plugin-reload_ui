@@ -1,0 +1,4 @@
+reload_application_permission: 'Restart the application'
+app_is_reloading: 'Application is restarting...'
+reload_required: 'You have to <a href="#" id="pytsite-reload-link">restart</a> your application'
+confirm_application_reload: 'Do you really want to restart application?'
