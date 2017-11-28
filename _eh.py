@@ -1,4 +1,4 @@
-"""PytSite Reload Event Handlers.
+"""PytSite Reload UI Plugin Events Handlers
 """
 from pytsite import router as _router, lang as _lang, reload as _reload
 from plugins import auth as _auth, assetman as _assetman
