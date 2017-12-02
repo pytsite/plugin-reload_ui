@@ -11,4 +11,4 @@ __license__ = 'MIT'
 def router_dispatch():
     if _reload.get_flag() and _auth.get_current_user().has_permission('reload_ui@reload'):
         _assetman.preload('reload_ui@js/reload.js')
-        _router.session().add_warning_message(_lang.t(_reload.RELOAD_MSG_ID))
+        _router.session().add_warning_message(_lang.t('reload_ui@reload_required'))
