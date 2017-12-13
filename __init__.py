@@ -6,7 +6,7 @@ __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
 
-def _init():
+def plugin_load():
     from pytsite import lang, router
     from plugins import assetman, permissions, http_api
     from . import _http_api_controllers, _eh
@@ -14,7 +14,7 @@ def _init():
     lang.register_package(__name__)
 
     assetman.register_package(__name__)
-    assetman.t_js(__name__ + '@**')
+    assetman.t_js(__name__)
     assetman.js_module('pytsite-reload', __name__ + '@js/pytsite-reload')
 
     router.on_dispatch(_eh.router_dispatch)
@@ -22,6 +22,3 @@ def _init():
     http_api.handle('POST', 'reload', _http_api_controllers.PostReload, 'reload_ui@reload')
 
     permissions.define_permission('reload_ui@reload', 'reload_ui@reload_application_permission', 'app')
-
-
-_init()
