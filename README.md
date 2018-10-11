@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.0 (2018-10-11)
+
+Support of `pytsite-8.x`, `assetman-3.x`.
+
+
 ### 1.3 (2018-01-27)
 
 Support for `auth-1.8`.
