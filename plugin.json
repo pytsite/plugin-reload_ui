@@ -1,6 +1,6 @@
 {
   "name": "reload_ui",
-  "version": "2.0",
+  "version": "2.1",
   "description": {
     "en": "Reload UI",
     "ru": "Reload UI",
@@ -15,7 +15,7 @@
   "requires": {
     "pytsite": ">=8",
     "plugins": {
-      "assetman": "3.x",
+      "assetman": "4.x",
       "auth": "3.x",
       "http_api": "3.x"
     }
