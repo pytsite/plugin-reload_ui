@@ -1,5 +1,6 @@
-const $ = require('jquery');
-const httpApi = require('@pytsite/http-api');
+import $ from 'jquery';
+import {lang} from '@pytsite/assetman';
+import httpApi from '@pytsite/http-api';
 
 $('#pytsite-reload-link').click(function (e) {
     e.preventDefault();
