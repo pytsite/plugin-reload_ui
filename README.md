@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.3 (2018-11-22)
+
+Support of `http_api-3.3`.
+
+
 ### 2.2 (2018-10-22)
 
 Support of `assetman-5.x`.

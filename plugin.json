@@ -1,6 +1,6 @@
 {
   "name": "reload_ui",
-  "version": "2.2",
+  "version": "2.3",
   "description": {
     "en": "Reload UI",
     "ru": "Reload UI",
@@ -17,7 +17,7 @@
     "plugins": {
       "assetman": "5.x",
       "auth": "3.x",
-      "http_api": "3.x"
+      "http_api": ">=3.3<4"
     }
   }
 }

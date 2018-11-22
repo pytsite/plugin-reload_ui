@@ -7,7 +7,7 @@ $('#pytsite-reload-link').click(function (e) {
 
     const link = $(this);
     if (confirm(lang.t('reload_ui@confirm_application_reload'))) {
-        reload.reload().done(function () {
+        reload.reload().then(() => {
             link.parent().text(lang.t('reload_ui@app_is_reloading'));
             setTimeout(function () {
                 location.reload();
